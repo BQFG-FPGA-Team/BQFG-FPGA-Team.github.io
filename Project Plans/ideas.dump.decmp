@@ -1,0 +1,19 @@
+1. Elliptic Curve Point Addition/Multiplication
+	Used in cryptography and pseudo-random number generation
+	Would be relatively easy to implement using Verilog (basic math, uses a lot features probably)
+	Semi-relavent to quant?? Maybe not, but some fun math
+
+2. TCP/UDP/(Your Fav Protocol Here) Stripper
+	Simulate real-time ingress of market data via ethernet or some other medium 
+	Strip away unneeded parts of each packet in stream (time, addressing, metadata, etc.)
+	Evaluate or log the actual message (e.g. prices)
+	Maybe harder to implement not really sure
+
+3. Matrix Multiplication ;)
+	Fun
+	Easy
+	Maybe not easy but fun
+
+https://www.seas.ucla.edu/~baek/FPGA.pdf
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8379873
+https://github.com/twaclaw/matmult

@@ -1,0 +1,21 @@
+The Pseudo Random Number Generator (PRNG):
+pseudo-random number generator on an FPGA board by programming it with a formula that repeatedly modifies a starting number to produce a sequence of new numbers that look random ->  start with an initial number (the seed), and the system uses that to generate a series of numbers that appear random by applying a specific formula repeatedly.
+
+1. Algorithm known as a "linear congruential generator" (LCG) : works by following a formula that takes a starting number (the "seed") and then applies multiplication, addition, and modulus operations to produce a new number
+
+2. Formula: new_number=(a×old_number+c)mod m
+
+a, c, and m are constants that you choose ahead of time.
+old_number is the seed (starting number) for the current round.
+new_number is the result, which also becomes the seed for the next round.
+
+i) Project Steps
+1. Choose Constants: Pick values for a, c, and m. The quality of your pseudo-random numbers will depend on these, but there are well-known values that work well.
+
+	a (multiplier): needs to provide a good spread of values across the range from 0 to m-1 -> 1664525
+	c (the increment): should be chosen such that c and m is relatively prime to ensure full periodicity for all seed values -> 1013904223
+	m (modulus): should be large to ensure a wide range of numbers -> 2^32
+
+2. Initialize the Seed: Start with any seed value. It can be a fixed number, or you could find creative ways to generate it, such as using the current time or input from a button.
+
+3. Implement the LCG Formula: Use VHDL or Verilog (FPGA programming languages) to program the formula into the FPGA. Every time the formula runs, it should output a new number.
