@@ -24,11 +24,11 @@ Artificial Data Generation
 - Optimize FPGA configurations and trading algorithms based on performance metrics such as latency, throughput, and profit.
 
 # Links
-FPGA Design and Implementation Resources:
+## FPGA Design and Implementation Resources:
 - Verilog Tutorial: https://www.asic-world.com/verilog/verilog_tutorial.html
 - VHDL Tutorial: https://www.csee.umbc.edu/~tino/vhdl_tutorial/
 - FPGA Trading System Design: https://www.researchgate.net/publication/324753633_FPGA_Based_High_Frequency_Trading_System_Design
-Artificial Data Generation using Machine Learning:
+## Artificial Data Generation using Machine Learning:
 - Generative Adversarial Networks (GANs) Tutorial: https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-cifar-10-small-dataset/
 - Recurrent Neural Networks (RNNs) Tutorial: https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 - Synthetic Market Data Generation using GANs: https://arxiv.org/abs/1903.09057
